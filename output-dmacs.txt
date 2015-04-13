@@ -1,11 +1,8 @@
 c This is an example of a comment line.
-p min 20004 49959
+p min 20003 49959
 c Node descriptor lines (supply+ or demand-)
-n 1 27
-n 20004 -27
 c Arc descriptor lines (from, to, minflow, maxflow, cost)
 a 1 2 0 27 0
-a 20003 20004 0 -27 0
 a 2 3 0 1 0
 a 2 4 0 1 0
 a 2 5 0 1 0
